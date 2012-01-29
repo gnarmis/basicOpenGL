@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3B2FE5EB14D4C17000C0305A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B2FE5EA14D4C17000C0305A /* main.cpp */; };
 		3B2FE5ED14D4C17000C0305A /* basicOpenGL.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B2FE5EC14D4C17000C0305A /* basicOpenGL.1 */; };
+		3B2FE5F414D4C2B100C0305A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2FE5F314D4C2B100C0305A /* OpenGL.framework */; };
+		3B2FE5F614D4C2B800C0305A /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2FE5F514D4C2B800C0305A /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,9 @@
 		3B2FE5E614D4C17000C0305A /* basicOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = basicOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2FE5EA14D4C17000C0305A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3B2FE5EC14D4C17000C0305A /* basicOpenGL.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = basicOpenGL.1; sourceTree = "<group>"; };
+		3B2FE5F314D4C2B100C0305A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		3B2FE5F514D4C2B800C0305A /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		3B2FE5F714D4ED1900C0305A /* basicOpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basicOpenGL.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2FE5F614D4C2B800C0305A /* GLUT.framework in Frameworks */,
+				3B2FE5F414D4C2B100C0305A /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +51,8 @@
 		3B2FE5DB14D4C17000C0305A = {
 			isa = PBXGroup;
 			children = (
+				3B2FE5F514D4C2B800C0305A /* GLUT.framework */,
+				3B2FE5F314D4C2B100C0305A /* OpenGL.framework */,
 				3B2FE5E914D4C17000C0305A /* basicOpenGL */,
 				3B2FE5E714D4C17000C0305A /* Products */,
 			);
@@ -61,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				3B2FE5EA14D4C17000C0305A /* main.cpp */,
+				3B2FE5F714D4ED1900C0305A /* basicOpenGL.h */,
 				3B2FE5EC14D4C17000C0305A /* basicOpenGL.1 */,
 			);
 			path = basicOpenGL;
